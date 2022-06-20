@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+    background-image: linear-gradient(to right, #5c5cff, #ff0000);
+    font-family: 'Ubuntu', sans-serif;
+}
+.wrapper{
+    display: flex;
+}
+.wrapper2 .inner{
+    padding: 20px;
+    /* background-color: black; */
+    text-align: center;
+    width: 100%;
+}
+.progressbar{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:gray;
+    text-align: center;
+    /* border-radius: 15%; */
+}
+button{
+    border-radius: 10%;
+    padding: 20px;
+}
+
+@keyframes progress{
+    from{width: 0%;}
+    to{width: 100%}
+}
+.anm{
+    background-color: green;
+    animation-name: progress;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
