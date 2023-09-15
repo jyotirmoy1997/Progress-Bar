@@ -1,3 +1,3 @@
 # Progress-Bar
 
-A simple progress bar using HTML, CSS and JavaScript
+A simple progress bar made using HTML, CSS and JavaScript
